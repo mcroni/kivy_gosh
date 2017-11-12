@@ -1,7 +1,7 @@
 from peewee import *
 import peewee as pw
 ##db = SqliteDatabase('peewee.sqlite')
-myDB = pw.MySQLDatabase("ahmedpar_final", host="ahmedpartey.com", port=3306, user="ahmedpar_cro", passwd="0501361111")
+myDB = pw.MySQLDatabase("****", host="****.com", port=3306, user="ahmedpar_cro", passwd="******")
 
 class Testify(Model):
     name = CharField()
